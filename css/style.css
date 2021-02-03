@@ -1,0 +1,853 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* end of common css */
+.header{
+    width: auto;
+    height: 55px;
+    background-color: #262626;
+    position: relative;
+}
+.headerlogo{
+    margin: 0 15px;
+    padding: 10px;
+}
+.headerbutton{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.btn{
+    background-color:#7AA93C ;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    background-color: #1D9033;
+    color: #edf852;
+}
+
+/* end of header */
+
+.nav{
+    width: auto;
+    height:60px;
+    background-color: #262C33;
+    position: relative;
+}
+.nav_space1{
+    width: 8%;
+    background-color: #262C33;
+    float: left;
+    height: 60px;
+}
+.nav_content1{
+    width: 32%;
+    height: 60px;
+    background-color: #262C33;
+    position: absolute;
+    left: 8%;
+    color: blanchedalmond;
+}
+.navimages{
+    margin: 18px 15px;
+    float: left;
+}
+.navtext{
+    margin: 18px 0px;
+    float: left;
+}
+font{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nav_content2{
+    width: 10%;
+    height: 60px;
+    background-color: #262C33;
+    position: absolute;
+    left: 40%;
+    color: #ffffff;
+
+}
+
+.nav_content3{
+    width: 20%;
+    height: 60px;
+    background-color: #262C33;
+    position: absolute;
+    left: 50%;
+}
+.nav_content4{
+    width: 22%;
+    height: 60px;
+    background-color: #262C33;
+    position: absolute;
+    left: 70%;
+    color: #ffffff;
+}
+.navimages2{
+    margin: 18px 10px;
+    float: left;
+}
+.navicon{
+    margin: 17px 10px;
+    float: right;
+    padding: 5px;
+
+}
+.fa-facebook{
+    color: cornsilk;
+}
+.nav_space3{
+    width: 8%;
+    background-color: #262C33;
+     height: 60px;
+     position: absolute;
+     right: 0px;
+}
+
+
+/* finishing of navaigation */
+
+
+/* starting of navigation2 */
+
+.nav2white{
+    height: 120px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+.nav2{
+    height: 120px;
+    width: auto;
+    margin: 1px 0px;
+    background-color:  #262C33;
+}
+.nav2space{
+    height: 120px;
+    width: 8%;
+    background-color: #262C33;
+    float: left;
+}
+.nav2intro{
+    height: 120px;
+    width: 20%;
+    background-color: #262C33;
+    float: left;
+    text-decoration: none;
+}
+.nav2logo{
+    margin: 35px 0px;
+    float: left;
+}
+.nav2logo a{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px 0px;
+    float:right;
+}
+
+.nav2blank{
+    height: 120px;
+    width: 20% ;
+    background-color: #262C33;
+    float: left;
+}
+.nav2menu{
+    height: 120px;
+    width: 34% ;
+    float: left;
+}
+.menu{
+    text-transform: uppercase;
+    float: left;
+    line-height: 120px;
+    padding: 0 25px;
+    font-size: 18px;
+    color: white;
+}
+.menu:hover{
+    color:  #1D9833;
+}
+.nav2menu .home{
+    color: #1D9833;
+}
+
+.nav2search{
+    height:  120px    ;  
+    width: 10% ;
+    background-color: #262C33;
+    float: left;
+}
+.nav2searchicon{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 40px 5px;
+    float: left;
+    transition-property: all;
+    transition-timing-function: 2s;
+
+}
+.nav2searchicon .fas{
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    float: left;
+}
+.fa-ellipsis-v{
+    margin: 0px 4px;
+}
+.nav2searchicon:hover{
+    background-color: #1D9833;
+}
+
+/* finishing of navigation 2 */
+
+
+/* starting cover section */
+.cover{
+    width: 100%;
+    margin:0;
+    padding: 0px;
+}
+.coverimage{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.shadowcover{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+.covertext1{
+    position: absolute;
+    top:150px ;
+    left: 33%;
+    font-size: 40px;
+    color: #1D9833;
+}
+.covertext2{
+    position: absolute;
+    top: 220px;
+    left: 20%;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.covercontactbtn{
+    background-color: #1D9833;
+    position: absolute;
+    top: 420px;
+    left: 45%;
+    font-size: 20px;
+    color: #fa0e0e;
+    text-align: center;
+    padding: 20px;  
+    transition:all 0.3s;
+    transform-style: inherit;
+}
+.covercontactbtn:hover{
+    background-color: #262C33;
+    color: white;
+}
+
+/* finishing of cover part1 */
+
+.bodycontent1{
+    height: 250px;
+    width: 100%;
+    background-color: #262C33;
+
+}
+.bodycontent1 .bodycontent1part1{
+    width: 8%;
+    height: 250px;
+    float: left;
+}
+.bodycontent1 .bodycontent1part2{
+    width: 28.5%;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.bodycontent1 .bodycontent1part2 .bodycontent1part1opacitytext{
+    position: absolute;
+    top:65px;
+    left: 10%;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.1;
+
+}
+.bodycontent1 .bodycontent1part2 .bodycontent1part1opacitytext2{
+    position: absolute;
+    top:100px;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.bodycontent1 .bodycontent1part3{
+    width: 35%;
+    height: 250px;
+    background-color: #1D2228;
+    float: left;
+    position: relative;
+}
+.bodycontent1 .bodycontent1part3 .bodycontent1part3circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #1E511E;
+    position: absolute;
+    top: 75px;
+    left: -50px;
+}
+.bodycontent1 .bodycontent1part3 .bodycontent1part3circle2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#19C133;
+    position: absolute;
+    top: 85px;
+    left: -40px;
+}
+.bodycontent1 .bodycontent1part3 .bodycontent1part3text1{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 50px;
+    left: 80px;
+}
+.bodycontent1 .bodycontent1part3 .bodycontent1part3text2{
+    position: absolute;
+    color: #19C133;
+    font-size: 45px;
+    top: 90px;
+    left: 80px;
+}
+.bodycontent1 .bodycontent1part3 .bodycontent1part3text3{
+    position: absolute;
+    color: #ffffff;
+    font-size: 23px;
+    top: 155px;
+    left: 80px;
+}
+/* finishig of bodycontent 1 */
+ 
+/* blank */
+.blank{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+/* end of blank */
+
+
+/* starting of bodycontent2 */
+.bodycontent2{
+    width: 100%;
+    height: 600px;
+}
+.bodycontent2 .bodycontent2blank{
+    width: 8%;
+    height: 600px;
+    float: left;
+}
+.bodycontent2 .bodycontent2part{
+    width: 42%;
+    height: 600px;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.bodycontent2 .bodycontent2part .bodycontentparttext1{
+    color: #2EC745;
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.bodycontent2 .bodycontent2part .bodycontentparttext2{
+    font-weight: bold;
+    color: #2B343B;
+    font-size: 60px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+.bodycontent2 .bodycontent2part .bodycontentparttext3{
+    color: #2B343B;
+    font-size: 20px;
+    position: absolute;
+    top: 340px;
+    left: 30px;
+}
+.bodycontent2 .bodycontent2part .bodycontentpartsubmit{
+    background-color: #19C133;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 480px;
+    left: 30px;
+}
+.bodycontent2 .bodycontent2part .bodycontentpartsubmit:hover{
+    background-color: #2B343B;
+}
+
+/* ending of bodycontent2 */
+
+
+/* starting of bodycontnet3 */
+.bodycontent3{
+    width: 100%;
+    height: 1080px;
+    background-color: #d9e8f8;
+    position: relative;
+}
+.bodycontent3 .bodycontent3blank{
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    height: 1080px;
+    float: left;
+}
+.bodycontent3 .bodycontent3text1{
+    color: #19C133;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 45%;
+
+}
+.bodycontent3 .bodycontent3text2{
+    color:  #2B343B;
+    font-size: 70px;
+    font-weight: bolder;
+    position: absolute;
+    top: 80px;
+    left: 37%; 
+}
+.bodycontent3 .bodycontent3box{
+    margin: 180px 0;
+    width: 84%;
+    height:900px ;
+    float: left;
+    padding: 0px;
+
+}
+.bodycontent3 .bodycontent3box .bodycontent3box1{
+    margin: 3% 2%;
+    height: 350px;
+    width: 29% ;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.bodycontent3 .bodycontent3box2{
+    margin: 6% 2%;
+    height: 350px;
+    width: 29% ;
+    background-color: white;
+    float: left;
+}
+.content3texth{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 120px;
+}
+.content3textc{
+    font-size: 20px;
+    padding: 50px 10px;
+    text-align: center;
+}
+/* ending of bodycontent3 */
+ 
+.bodyform{
+    width: 100%;
+    height: 600px;
+    background-color: #8CE099;
+    position: relative;
+}
+.bodyform .bodyformtext1{
+   width: 30%;
+   height: 80px;
+   position: absolute;
+   left: 35%;
+   text-align: center;
+   line-height: 80px;
+   color: white;
+   font-size: 20px;
+   top: 50px;
+}
+.bodyform .bodyformtext2{
+    width: 50%;
+    height: 80px;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-size: 50px;
+    top: 100px;
+}
+.form{
+    width: 52%;
+    height: 400px;
+    position: absolute;
+    left: 10%;
+    color: white;
+    top: 200px;
+}
+.form #formtext{
+    margin: 50px 10px;
+    height: 30px;
+    width: 300px;
+    background-color: #8CE099;
+    padding: 10px;
+    border:1px solid rgb(255, 255, 255);
+}
+.form2{
+    width: 35%;
+    height: 300px;
+    position: absolute;
+    right: 2%;
+    color: white;
+    background-color:  #8CE099;
+    top: 250px;  
+}
+textarea{
+    background-color: #8CE099;
+    border:1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px;
+}
+.formbtn{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left:45%;
+}
+.formbtn button{
+    background-color: #19C133;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    transition: all linear 0.4s;
+
+}
+.formbtn button:hover{
+    background-color: white;
+    color: #2B343B;
+}
+
+/* finishing of form part */
+
+
+/* starting of content4 */
+.content4{
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.content4 .mainbox{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+.content4 .mainbox .imgbox{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+.content4 .mainbox .containerbox{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+.content4 .mainbox .containerbox .containerbox1{
+    height: 220px;
+    width: 220px;
+    background-color: rgb(225, 232, 248);
+    float: right;
+    margin: 20px 20px;
+    position: relative;
+}
+.content4 .mainbox .containerbox .containerbox1 .boxtext1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 180px;
+}
+.content4 .mainbox .containerbox .containerbox1 .boxtext2{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+/* ending of content4 */
+
+
+/* starting of content5 */
+.content5{
+    height: 700px;
+    width: 100%;
+}
+.content5 .mainbody{
+    width: 84%;
+    height: 700px;
+    margin: 0 auto;
+}
+.content5 .mainbody .mainbodypart1{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+    font-weight: bolder;
+    color:#19C133 ;
+}
+.content5 .mainbody .mainbodypart2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: bolder;
+    color:#2B343B ;
+}
+.content5 .mainbody .mainbodypart3{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.content5 .mainbody .mainbodypart3 .mainbodypart3space{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 50px;
+}
+.content5 .mainbody .mainbodypart3 .mainbodypart3space .mainbodybox{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin: 0 18px;
+}
+.content5 .mainbody .mainbodypart3 .mainbodypart3space .mainbodybox .mainbodybox1{
+    width: 90%;
+    height: 30%;
+    margin: 10px 20px;
+}
+.content5 .mainbody .mainbodypart3 .mainbodypart3space .mainbodybox .mainbodybox1 .mainbodybox1img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.content5 .mainbody .mainbodypart3 .mainbodypart3space .mainbodybox .mainbodybox1 .mainbodybox1text{
+    width: 63%;
+    height: 100%;
+    float: left;
+    margin: 0 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* ending of content5 */
+
+
+/* starting of content 6 */
+
+.content6{
+    width: 100%;
+    height: 250px;
+    background-color: #19C133
+}
+.content6 .content6text{
+    width: 70%;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+    font-size: 60px;
+    color: white;
+}
+.content6 .content6btn{
+    width: 30%;
+    height: 250px;
+    line-height: 250px;
+    float: left;
+    position: relative;
+}
+.content6 .content6btn .content6btn1{
+    border: none;
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    left: 40%;
+    top: 45%;
+    font-size: 15px;
+    color: white;
+    background-color: #2B343B;
+    font-weight: bold;
+    transition: all linear 0.4s;
+}
+.content6 .content6btn .content6btn1:hover{
+    color: #2B343B;
+    background-color: white
+}
+
+
+/* ending of content6 */
+
+/* starting of content7 */
+
+
+.content7{
+    height: 700px;
+    width: 100%;
+    background-color:#2B343B;
+    position: relative;
+}
+.content7 .content7section{
+    height: 400px;
+    width: 84%;
+    position: absolute;
+    top: 100px;
+    left: 8%;
+}
+.content7 .content7section .content7section2{
+    height: 100px;
+    width: 84%;
+    position: absolute;
+    left: 8% 
+}
+.content7 .content7section .c7section7part{
+    height: 400px;
+    width: 23%;
+    float: left;
+    margin: 0 11px;
+    color: white;
+    font-size: 15px;
+}
+.content7 .content7section .c7section7part .c7secp11{
+    height: 60px;
+    widows: 100%;
+    font-size: 40px;
+    color: white;
+}
+.content7 .content7section .c7section7part .c7secp1text{
+    margin: 20px 0;
+    font-size: 25px;
+    color:white;
+}
+.content7 .content7section .c7section7part .c7sec1input #textinput{
+    margin: 15PX 20px;
+    height: 30px;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: #3B3F46;
+    border: none;
+}
+.content7 .content7section .c7section7part .c7sec1input .c7btn{
+    margin: 10px 50px;
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: #6ce03e;
+    border: none;
+    font-size: 20PX;
+    color: white;
+}
+.content7 .content7section .c7section7part .c7sec1input .c7btn:hover{
+    background-color: white;
+    color: #3B3F46;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ending of content7 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
